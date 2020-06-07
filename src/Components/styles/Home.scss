@@ -1,0 +1,63 @@
+@import "../../settings.scss";
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    .copy {
+        position: relative;
+        bottom: 100px;
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        font-size: 100%;
+        min-height: 100vh;
+
+        h2 {
+            font-size: 2em;
+            margin: 16px;
+        }
+
+        h3 {
+            margin: 16px;
+        }
+
+        // .cta {
+        //     margin: 16px;
+        // }
+    }
+
+    form {
+        .flex-row {
+            align-items: center;
+            justify-content: flex-start;
+            margin: 16px;
+            input,
+            button {
+                margin: 0;
+                font-size: 16px;
+                border: none;
+                padding: 10px;
+                line-height: 1.6em;
+            }
+            input {
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+
+            button {
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+        }
+
+        .assurance {
+            color: #555;
+        }
+    }
+}
