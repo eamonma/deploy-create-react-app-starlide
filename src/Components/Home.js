@@ -21,14 +21,14 @@ export class Home extends Component {
         return (
             <div className="Home">
                 <div className="copy">
-                    <h2>Where more happens for less.</h2>
-                    <h3>We give small companies access to high quality marketing and promotion.</h3>
-                    <form action="#">
+                    <h2>More for less.</h2>
+                    <h3>We give companies access to high quality video and web design to showcase their brands.</h3>
+                    <form action="#" onSubmit={this.handleSubmit}>
                         <div className="flex-row">
                             <input autoFocus
-                                autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                                autoComplete="off" autoCorrect="off" autoCapitalize="off" spellCheck="false"
                                 type="email" placeholder="Your email" value={this.state.email} onChange={(e) => { this.handleChange(e.target.value) }} />
-                            <button className="cta">Book a demo &#12297;</button>
+                            <button className="cta" type="submit">Book&nbsp;a&nbsp;demo&nbsp;&#12297;</button>
                         </div>
                         <div className="flex-row">
                             <span className="assurance"><em> Free demo, no commitment.</em> Your information will not be shared.</span>

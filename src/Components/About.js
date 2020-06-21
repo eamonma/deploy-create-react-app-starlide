@@ -6,33 +6,35 @@ export class About extends Component {
             <div className="About content">
                 <h2>Who are we?</h2>
                 <section>
-                    <p>Starlide Media (We are not sure if that is a good name from a marketing standpoint) is a company where we provide the service of creating high-quality video advertisements for a very good price. We are here to help make marketing much easier for the company, by offering services of video creation, all the way to managing their online marketing via FaceBook ads and Instagram Ads. </p>
+                    <p>
+                    We aim to provide a detail-oriented approach to helping businesses grow and make an impact on their community.
+                    </p>
                 </section>
                 <hr/>
                 <h2>The team</h2>
                 <section className="members">
                     <div className="member">
-                        <h3>John Appleseed</h3>
+                        <h3>Eamon&nbsp;Ma</h3>
                         <img src="https://utulsa.edu/wp-content/uploads/2018/08/generic-avatar.jpg"
-                            alt="John Appleseed's face" className="avatar" />
+                            alt="Eamon Ma's face" className="avatar" />
                         <p className="bio">
-                            In carnatic music, pallavi also forms a part of a special type of rendition called Rāgam Thānam Pallavi. Rāgam in this context is the initial ālāpana of chosen rāgam (elaboration and exploration of its scale). Thānam is elaboration of the rāgam using percussion syllables. Pallavi, a single line of one tālam cycle duration, is chosen for further elaboration of the rāgam in different speeds, octaves, rāgam phrases, etc. The Pallavi is mainly presented as the pièce de résistance of the concert.
+                            Eamon creates responsive, beautiful, and accessible websites. He will be studying at the University of Toronto in September.
                         </p>
                     </div>
                     <div className="member">
-                        <h3>Jane Appleseed</h3>
+                        <h3>Shahaab&nbsp;Oshidary</h3>
                         <img src="https://utulsa.edu/wp-content/uploads/2018/08/generic-avatar.jpg"
-                            alt="John Appleseed's face" className="avatar" />
+                            alt="Shahaab Oshidary's face" className="avatar" />
                         <p className="bio">
-                            The Company is based on a single partnership between Felix Soong, an award-winning camera videographer, and Shahaab Oshidary, who has won an award from the mayor and leader of the Capilano Youth Committee’s marketing team.
+                            Shahaab is driven to help businesses grow, no matter the size. He is passionate to provide excellent service, and has great attention to detail. Shahaab plans to study at Simon Fraser University.
                         </p>
                     </div>
                     <div className="member">
-                        <h3>Jahyne Appleseed</h3>
+                        <h3>Felix&nbsp;Soong</h3>
                         <img src="https://utulsa.edu/wp-content/uploads/2018/08/generic-avatar.jpg"
-                            alt="John Appleseed's face" className="avatar" />
+                            alt="Felix Soong's face" className="avatar" />
                         <p className="bio">
-                            The vision that we have with this company is to make marketing available to everyone, from the big companies all the way to the small companies. We want to do all of that for a lower cost than all of the other companies as well. We value quality A LOT and believe that no matter what task we are to tackle, we will do them all with 110%. We hope to bring top quality content for everyone who needs it to grow their company.
+                            Felix Soong is an award winning filmmaker that sees that value in effective video content. When he's not behind a camera, he's playing with one of his 20 twisty puzzles. Felix plans to study at Capilano Univeristy in the fall.
                         </p>
                     </div>
                 </section>

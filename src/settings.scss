@@ -1,21 +1,15 @@
-$link: #161925;
-$small: 0.5em;
-$medium: 0.75em;
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+$serif: 'Crimson Text', serif;
+$sans: 'Manrope', sans-serif;
 
-$cta: rgb(94, 34, 11);
-$cta-text: #fff;
+$dark: #191924;
+$bright: #f9faeb;
+$bright-grey: hsl(64, 0%, 95%);
+$primary: #F09605;
+$d-primary: saturate(darken($primary, 10%), 100%);
+$secondary: #0078A3;
+$tertiary: #B40424;
 
-
-$xs: 0.8rem;
-$s: 1.6rem;
-$sm: 3.4rem;
-$m: 3rem;
-$l: 10rem;
-$xl: 18rem;
-$p-link: rgb(45, 57, 163);
-// $p-link: #123abc;
-$s-link: rgb(117, 117, 255);
-$secondary: rgb(238, 245, 252);
-$tertiary: rgb(238, 238, 238);
-$safety: #23395B;
-$danger: #cf1d1d;
+$small: 10px;
+$medium: 16px;

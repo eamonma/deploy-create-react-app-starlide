@@ -11,28 +11,13 @@ import Home from "./Components/Home"
 import Services from "./Components/Services"
 import About from "./Components/About"
 import Contact from "./Components/Contact"
+import Navigation from "./Components/Navigation"
 
 function Starlide() {
   return (
     <Router>
       <header>
-        <nav>
-          <h1><Link to="/">Starlide</Link></h1>
-          <ul>
-            <li>
-              <NavLink activeClassName="current-link" to="/services">Services</NavLink>
-            </li>
-            <li>
-              <NavLink activeClassName="current-link" to="/about">About</NavLink>
-            </li>
-            <li>
-              <NavLink activeClassName="current-link" to="/contact">Contact</NavLink>
-            </li>
-            <li>
-              <Link className="cta" to="/contact&">Book a demo</Link>
-            </li>
-          </ul>
-        </nav>
+        <Navigation></Navigation>
       </header>
 
       <main>
@@ -59,3 +44,5 @@ function Starlide() {
 }
 
 export default Starlide;
+
+// Allowing smaller companies acces to smaller videos. Money is no boundary when it comes to quality content and we we want to give all companies a chance to shine with a video or website to display there brands truthfully for the people to see
